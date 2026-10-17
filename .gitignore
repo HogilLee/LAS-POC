@@ -1,0 +1,22 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated assets
+node_modules/
+dist/
+.vite/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Uploaded data and local databases
+uploads/
+*.las
+*.laz
+*.copc
+*.log
+.DS_Store
+Thumbs.db
